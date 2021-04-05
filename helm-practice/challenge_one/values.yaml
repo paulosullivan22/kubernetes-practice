@@ -1,0 +1,13 @@
+deployment:
+  name: challenge
+  replicaCount: 1
+  image:
+    repository: httpd
+    version: 2.4
+
+service:
+  type: NodePort
+  port: 80
+  name: challengesvc
+  nodePort: 31234
+
