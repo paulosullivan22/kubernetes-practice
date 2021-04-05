@@ -9,6 +9,7 @@ deployment:
     repository: nginx
     version: latest
 
+
 service:
   name: helmservice
   type: NodePort
