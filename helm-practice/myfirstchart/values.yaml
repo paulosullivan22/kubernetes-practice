@@ -9,9 +9,10 @@ deployment:
     repository: nginx
     version: latest
 
-
 service:
   name: helmservice
   type: NodePort
   port: 80
+  targetPort: 80
+  nodePort: 31234
 
