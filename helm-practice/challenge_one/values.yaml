@@ -8,6 +8,6 @@ deployment:
 service:
   type: NodePort
   port: 80
-  name: challengesvc
+  name: challenge
   nodePort: 31234
 
